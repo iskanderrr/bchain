@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+  }
+
+  .sidebar {
+    width: 253px;
+    height: 100%;
+    background-color: white;
+    color: #9A9A9A;
+    padding: 30px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-family: inter;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 30px;
+  }
+
+  .logo img {
+    width: 117px;
+  }
+
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+  .menu li a {
+    color: #9A9A9A;
+    text-decoration: none;
+
+
+    width: 193px;
+    height: 56px;
+
+  
+    
+    
+
+
+  }
+  .side-bar-title{
+    width: 42px;
+    height: 18px;
+    box-sizing: border-box;
+    font-size: 12px;
+    
+
+
+
+  }
+  button{
+    width: 193px;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+  }
+
+
+  .menu-item{
+    box-sizing: border-box;
+    margin: 14px 0;
+ 
+    display: flex;
+    width: 193px;
+    height: 56px;
+    padding: 16px 24px;
+    align-items: center;
+   
+
+ 
+  }
+  .menu-item p{
+  
+    width: 111px;
+    height: 24px;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    font-weight: 450;
+
+
+  
+    
+  }
+  .menu-item svg {
+
+    padding-bottom: 6px;
+  }
+  #pic{
+    border-radius: 50%;
+    
+  }
+
+
+
+
+  
+
+  
+  .navbar {
+    background-color: white;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+  }
+  
+  .navbar img {
+    width: 30px;
+    height: 30px;
+
+
+  }
+  
+  .menu-logo,
+  .right-nav {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .side-menus{
+
+    padding-bottom: 60%;
+
+
+
+  }
+svg{
+
+  margin-bottom: 5px;
+
+}
+  @media screen and (max-width: 1600px) {
+
+    .menu-item{
+        padding: 12px 10px;
+        margin: 5px;
+
+    }
+    .side-menus{
+
+        padding-bottom: 20%;
+    
+    
+    
+      }
+
+
+  }

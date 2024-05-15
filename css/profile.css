@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Style for container */
+.container {
+    margin-top: 50px;
+  }
+  
+  /* Style for card */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for profile picture */
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  /* Style for file input */
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Style for form group */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for submit button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
