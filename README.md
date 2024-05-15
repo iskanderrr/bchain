@@ -1,1 +1,1 @@
-###Install SMTP and phpMailerSmtp
+Install SMTP and phpMailerSmtp
